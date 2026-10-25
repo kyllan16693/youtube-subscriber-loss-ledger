@@ -1,0 +1,12 @@
+# Third-party sources and licensing
+
+The MIT license applies to this project's original software, icons, and documentation. It does not grant rights to third-party datasets, reports, brands, or screenshots. `extension/registry.js` contains attributed factual summaries and source citations, not the original reports or raw datasets. Source material retains its original terms. No blanket MIT license is asserted over third-party material.
+
+- Ken Jee: creator-published export, pinned to https://github.com/PlayingNumbers/YT_Dashboard_st/tree/1d323b6348d2778c0a623e6a340fb0aea912a36a . Aggregate: 45,790; original reporting dates unavailable. No general redistribution license for the underlying dataset was established in this review.
+- Samant Saurabh, Data for: Modelling and Statistical Analysis of YouTube's Educational Videos: A Channel Owner's Perspective, version 1 (2018), https://doi.org/10.17632/yv85ckvvvb.1 . Source dataset license: Creative Commons Attribution-NonCommercial 3.0 Unported, https://creativecommons.org/licenses/by-nc/3.0/ . The extension presents only the 10,181 aggregate and original reporting dates, with a citation; the workbook is not redistributed. This software license does not remove the source dataset's noncommercial restriction. Review source rights separately before commercial use or redistributing source data.
+- General Shale: 2020 social report, https://generalshale.com/wp-content/uploads/2021/04/2020-GeneralShale-SocialReport..pdf , page 16, Overall Channel table. Aggregate: 25 during calendar 2020. The original PDF is not redistributed.
+- Fire Safe Marin / Marin Wildfire Prevention Authority: public monthly and annual institutional reports. All seven record URLs and PDF page references appear in `extension/registry.js`; dates are preserved, and overlapping periods are not added. The original PDFs are not redistributed. The January 2025 report records 38 losses on PDF page 77.
+
+Screenshots show the extension on public YouTube pages. Channel names, images, thumbnails, Google, Chrome, and YouTube branding belong to their respective owners. The extension is independent and is not endorsed by Google, YouTube, or the depicted channels.
+
+The test fixtures are synthetic, minimal page structures authored for these tests. They are not copied channel pages or evidence of historical loss values. No raw research datasets, browser profiles, credentials, or personal browser history are included in this repository.
