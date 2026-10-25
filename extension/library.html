@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lookup & History · Subscriber Loss Ledger</title><link rel="stylesheet" href="pages.css"></head>
+<body class="ledger-app"><div class="library">
+<header><div class="ledger-brand"><span class="ledger-mark" aria-hidden="true">↘</span> Subscriber Loss Ledger</div><h1 class="page-title">The record behind the number.</h1><p>Explore published subscriber-loss evidence and keep a private history of the counts you observe.</p></header>
+<div class="library-grid"><main><form id="lookup" class="lookup-form"><label for="channel">YouTube channel URL, @handle, or channel ID</label><input id="channel" name="channel" placeholder="@MrBeast or youtube.com/@FIRESafeMARIN" autocomplete="off" required><button class="ledger-button primary" type="submit" id="check">Look up</button></form><p id="status" role="status" aria-live="polite"></p><section id="app" class="ledger-card"><div class="empty-intro">Choose a channel to see its public evidence and local count history.</div></section></main>
+<aside class="side"><section class="side-card"><h2>Public report examples</h2><div id="examples"></div><p class="ledger-note">Included reports are historical and cover specific periods.</p></section>
+<section class="side-card"><h2>Saved channels</h2><div id="saved"></div><button class="ledger-button" id="export" type="button">Export local history</button></section>
+<section class="side-card"><h2>History & privacy</h2><label class="record-switch"><input type="checkbox" id="record"><span>Save public count observations locally</span></label><p class="privacy">Counts update when you visit or look up a channel. This device keeps up to 120 recent observations per channel, for 100 channels. Incognito lookups are not recorded.</p><p class="privacy">Public YouTube requests omit account cookies. Saved channel names, counts, and observation times stay in your browser. Source links open when you click them.</p><p class="privacy">Lifetime unsubscribes cannot be reconstructed from public subscriber totals. Published loss records retain their original dates and scope.</p></section></aside></div>
+</div><script src="core.js"></script><script src="styles.js"></script><script src="ui.js"></script><script src="library.js"></script></body>
+</html>
