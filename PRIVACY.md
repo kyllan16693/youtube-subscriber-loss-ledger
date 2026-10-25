@@ -24,4 +24,4 @@ Data is used only to identify the channel, display cited public loss reports, an
 
 ## Contact
 
-For questions or reports, use https://github.com/kyllan16693/youtube-subscriber-loss-ledger/issues . GitHub is a separate service; do not include private browsing history or other sensitive information in a public issue.
+For privacy questions, email chrome@kyllan.dev. For bug reports, use https://github.com/kyllan16693/youtube-subscriber-loss-ledger/issues . GitHub is a separate service; do not include private browsing history or other sensitive information in a public issue.

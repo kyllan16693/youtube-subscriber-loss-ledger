@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.chrome-test-profile/
+.env
+.env.*
+*.pem
+*.key
+research/
+verification/
